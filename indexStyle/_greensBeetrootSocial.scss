@@ -1,0 +1,111 @@
+//*Greens Beetroot Social Section Starts
+.greens_beetroot_social_wrap_main {
+    width: 100%;
+    .greens_beetroot_social_wrap_inner {
+        width: 100%;
+        height: 300px;
+        background-image: url(../dist/img/yellowBg.webp);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        .greens_main {
+            width: 33%;
+            .greens_inner {
+                width: 100%;
+                .for_icon {
+                    width: 15%;
+                    img {
+                        width: 100%;
+                    }
+                }
+                .for_big_txt {
+                    p {
+                        font-family: "Merriweather", serif;
+                        font-weight: 500;
+                        font-size: 18px;
+                    }
+                }
+                .for_small_txt {
+                    width: 65% !important;
+                    p {
+                        text-align: center;
+                        font-family: "Merriweather", serif;
+                        font-weight: 300;
+                        font-size: 14px;
+                        color: rgb(82, 82, 82);
+                    }
+                }
+            }
+        }
+        .beetroot_main {
+            width: 33%;
+            .beetroot_inner {
+                width: 100%;
+                .for_icon {
+                    width: 15%;
+                    img {
+                        width: 100%;
+                    }
+                }
+                .for_big_txt {
+                    p {
+                        font-family: "Merriweather", serif;
+                        font-weight: 500;
+                        font-size: 18px;
+                    }
+                }
+                .for_small_txt {
+                    width: 65% !important;
+                    p {
+                        text-align: center;
+                        font-family: "Merriweather", serif;
+                        font-weight: 300;
+                        font-size: 14px;
+                        color: rgb(82, 82, 82);
+                    }
+                }
+            }
+        }
+        .social_main {
+            width: 33%;
+            .social_inner {
+                width: 100%;
+                .for_icon {
+                    width: 15%;
+                    img {
+                        width: 100%;
+                    }
+                }
+                .for_big_txt {
+                    p {
+                        font-family: "Merriweather", serif;
+                        font-weight: 500;
+                        font-size: 18px;
+                    }
+                }
+                .for_small_txt {
+                    width: 65% !important;
+                    p {
+                        text-align: center;
+                        font-family: "Merriweather", serif;
+                        font-weight: 300;
+                        font-size: 14px;
+                        color: rgb(82, 82, 82);
+                    }
+                }
+            }
+        }
+    }
+}
+//*Greens Beetroot Social Section Ends
+//!Greens Beetroot Social Section For Responsive Starts
+@media only screen and (max-width:700px) {
+    .greens_beetroot_social_wrap_inner {
+        height: 750px !important;
+        flex-direction: column !important;
+        gap: 20px;
+    }
+    .greens_main, .beetroot_main, .social_main {
+        width: 100% !important;
+    }
+}
