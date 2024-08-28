@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="dist/index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
@@ -14,30 +14,101 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/v5-font-face.min.css" integrity="sha512-DcECXqwZmt1qB8pmbplND75YoND3xBL1h4/LGQ+0zoizkoAKI+BniMoEF/JsZ/vcnsr9X5NOGaB63jLmOxgJrA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
+    <!--!For Responsive Navbar Starts-->
+    <!--For Hamburger Starts-->
+    <div class="drawer block lg:hidden navbar_res">
+        <input id="my-drawer" type="checkbox" class="drawer-toggle" />
+        <div class="drawer-content hamburger_cus">
+            <!-- Page content here -->
+            <label for="my-drawer" class="btn drawer-button">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                    class="inline-block h-10 w-15 stroke-current">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16">
+                    </path>
+                </svg>
+            </label>
+        </div>
+        <div class="drawer-side">
+            <label for="my-drawer" aria-label="close sidebar" class="drawer-overlay"></label>
+            <ul class="menu bg-base-200 text-base-content min-h-full w-80 p-4">
+                <!-- Sidebar content here -->
+                <li><a>Sidebar Item 1</a></li>
+                <li><a>Sidebar Item 2</a></li>
+            </ul>
+        </div>
+    </div>
+    <!--For Hamburger Ends-->
+    <!--For Slider Starts-->
+    <div class="second_loop owl-carousel owl-theme block lg:hidden">
+        <div class="item_main_one">
+            <div class="item_inner_one"></div>
+        </div>
+        <div class="item_main_two">
+            <div class="item_inner_two"></div>
+        </div>
+    </div>
+    <div class="navbar_content_main block lg:hidden">
+        <div class="navbar_content_inner">
+            <div class="for_content text-center">
+                <p>Dandelion cucumber earthnut<br> pea peanut soko zucchini</p>
+            </div>
+            <div class="for_divider flex justify-center">
+                <img src="dist/img/divider.svg" alt="">
+            </div>
+        </div>
+    </div>
+    <!--For Slider Ends-->
+    <!--!For Responsive Navbar Ends-->
     <!--*Navbar Section Starts-->
-    <section class="navbar_main">
+    <section class="navbar_main hidden lg:block ">
         <div class="navbar_inner">
             <div class="for_navbar_bg_main">
                 <div class="for_navbar_bg_inner">
                     <div class="first_loop owl-carousel owl-theme">
-                        <div class="item_main">
-                            <div class="item_inner">
-                                
+                        <div class="item_main_one">
+                            <div class="item_inner_one"></div>
+                        </div>
+                        <div class="item_main_two">
+                            <div class="item_inner_two"></div>
+                        </div>
+                    </div>
+                    <!--!For Navbar Menu and Content Starts-->
+                    <div class="navbar_menu_content_wrap">
+                        <div class="navbar_menu_main">
+                            <div class="navbar_menu_inner flex flex-row gap-12">
+                                <a class="active" href="#">Home</a>
+                                <a href="#">Specials</a>
+                                <a href="#">About</a>
+                                <a href="#">Menu Cart</a>
+                                <a href="#">Contact</a>
+                            </div>
+                        </div>
+                        <div class="navbar_content_main">
+                            <div class="navbar_content_inner">
+                                <div class="for_content text-center">
+                                    <p>Dandelion cucumber earthnut<br> pea peanut soko zucchini</p>
+                                </div>
+                                <div class="for_divider flex justify-center">
+                                    <img src="dist/img/divider.svg" alt="">
+                                </div>
                             </div>
                         </div>
                     </div>
+                    <!--!For Navbar Menu and Content Ends-->
                 </div>
             </div>
         </div>
     </section>
+    <!--*Navbar Section Ends-->
 
 
 
 
 
-
+    <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/all.min.js" integrity="sha512-6sSYJqDreZRZGkJ3b+YfdhB3MzmuP9R7X1QZ6g5aIXhRvR1Y/N/P47jmnkENm7YL3oqsmI6AK+V6AD99uWDnIw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
