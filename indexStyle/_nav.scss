@@ -160,6 +160,17 @@
             }
         }
     }
+    .menu_cus {
+        li {
+            display: flex;
+            flex-direction: row;
+            a {
+                font-family: "Merriweather", serif;
+                font-weight: 400;
+                font-size: 20px;
+            }
+        }
+    }
 }
 @media only screen and (max-width:760px) {
     .navbar_res {
@@ -207,6 +218,11 @@
                 width: 80% !important;
             }
         }
+    }
+}
+@media only screen and (max-width:430px) {
+    .menu_cus {
+        width: 42% !important;
     }
 }
 //!/*Navbar Section For Responsive Ends*/
