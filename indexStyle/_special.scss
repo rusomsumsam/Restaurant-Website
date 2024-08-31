@@ -44,3 +44,63 @@
     }
 }
 //!Special Section Title Ends
+//*Special Section Starts
+.special_main {
+    width: 90%;
+    margin: 50px auto 0 auto;
+    .special_inner {
+        width: 100%;
+        .greens_fava_main, .celery_quand_main, .pea_horser_main, .soko_radicchio_main, .tigernut_main, .yarrow_sweet_main {
+            display: flex;
+            flex-direction: row;
+            .for_img {
+                width: 100%;
+                img {
+                    width: 100%;
+                }
+            }
+            .for_content {
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 6px;
+                padding: 20px;
+                .for_heading {
+                    p {
+                        font-family: "Merriweather", serif;
+                        font-weight: 400;
+                        font-size: 18px;
+                    }
+                }
+                .for_underline {
+                    width: 45%;
+                    height: 1px;
+                    background-color: black;
+                }
+                .for_txt {
+                    p {
+                        text-align: center;
+                        font-family: "Merriweather", serif;
+                        font-weight: 300;
+                        font-size: 14px;
+                    }
+                }
+                div {
+                    p {
+                        font-family: "Merriweather", serif;
+                        font-weight: 300;
+                        font-size: 14px;
+                    }
+                }
+                span {
+                    font-family: "Merriweather", serif;
+                    font-weight: 500;
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}
+//*Special Section Ends
