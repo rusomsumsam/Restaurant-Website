@@ -1,0 +1,73 @@
+//*About Us Section Title Starts
+.about_us_main {
+    width: 100%;
+    margin-top: 100px;
+    .about_us_inner {
+        width: 100%;
+        background-color: rgb(218, 218, 218);
+        .about_us_content_main {
+            width: 50%;
+            .about_us {
+                width: 100%;
+                .for_title {
+                    width: 100%;
+                    .for_header {
+                        width: 100%;
+                        p {
+                            font-family: "Merriweather", serif;
+                            font-weight: 300;
+                            font-size: 20px;
+                            text-shadow: 2px 2px 5px rgba(228, 215, 215, 0.5);
+                        }
+                    }
+                    .for_divider {
+                        width: 30%;
+                        margin-top: 10px;
+                        img {
+                            width: 100%;
+                        }
+                    }
+                }
+                .for_txt {
+                    width: 44%;
+                    p {
+                        font-family: "Merriweather", serif;
+                        font-weight: 300;
+                        font-size: 16px;
+                        line-height: 30px;
+                    }
+                }
+            }
+            .for_sign {
+                width: 125%;
+                margin-top: 20px;
+                img {
+                    width: 15%;
+                }
+            }
+        }
+        .about_us_img_main {
+            width: 50%;
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
+//*About Us Section Title Ends
+//!About Us Section Title For Responsive Starts
+@media only screen and (max-width:865px) {
+    .about_us_inner {
+        flex-direction: column !important;
+        padding-top: 30px;
+    }
+    .about_us_content_main {
+        width: 100% !important;
+        .about_us {
+            .for_txt {
+                width: 80% !important;
+            }
+        }
+    }
+}
+//!About Us Section Title For Responsive Ends
