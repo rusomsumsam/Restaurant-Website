@@ -1,0 +1,27 @@
+//*Menu Cart Title Starts
+.menu_cart_title_main {
+    width: 100%;
+    margin-top: 70px;
+    .menu_cart_title_inner {
+        width: 100%;
+        .for_header {
+            width: 100%;
+            p {
+                font-family: "Merriweather", serif;
+                font-weight: 300;
+                font-size: 30px;
+                color: black;
+                text-shadow: 2px 2px 5px rgba(228, 215, 215, 0.5);
+            }
+        }
+        .for_divider {
+            width: 100%;
+            margin-top: 10px;
+            img {
+                width: 20%;
+            }
+        }
+    }
+}
+
+//*Menu Cart Title Ends
