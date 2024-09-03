@@ -23,5 +23,161 @@
         }
     }
 }
-
 //*Menu Cart Title Ends
+//!Menu Cart Title For Responsive Starts
+@media only screen and (max-width:900px) {
+    .menu_cart_title_inner {
+        .for_divider {
+            img {
+                width: 30% !important;
+            }
+        }
+    }
+}
+@media only screen and (max-width:600px) {
+    .menu_cart_title_inner {
+        .for_divider {
+            img {
+                width: 40% !important;
+            }
+        }
+    }
+}
+@media only screen and (max-width:500px) {
+    .menu_cart_title_inner {
+        .for_divider {
+            img {
+                width: 45% !important;
+            }
+        }
+    }
+}
+@media only screen and (max-width:400px) {
+    .menu_cart_title_inner {
+        .for_divider {
+            img {
+                width: 50% !important;
+            }
+        }
+    }
+}
+//!Menu Cart Title For Responsive Ends
+//*Menu Cart Starts
+.menu_cart_main {
+    width: 100%;
+    .menu_cart_inner {
+        width: 100%;
+        .for_filter_button {
+            width: 100%;
+            margin: 30px 0 30px 0;
+            .filter {
+                width: 120px;
+                height: 50px;
+                font-family: "Merriweather", serif;
+                font-weight: 300;
+                font-size: 16px;
+                &:hover {
+                    border: 2px solid rgb(90, 90, 90);
+                    padding: 2px;
+                }
+            }
+        }
+        .menu_container {
+            width: 100%;
+            height: 350px;
+            .one {
+                display: none;
+                .menu_item {
+                    font-family: "Merriweather", serif;
+                    margin-bottom: 15px;
+                    .item_name {
+                        font-family: "Merriweather", serif;
+                        font-weight: 300;
+                        font-size: 16px;
+                        color: rgb(71, 71, 71);
+                        span {
+                            letter-spacing: 2px;
+                        }
+                    }
+                    .item_description {
+                        font-family: "Merriweather", serif;
+                        font-weight: 300;
+                        font-size: 14px;
+                        color: rgb(71, 71, 71);
+                    }
+                }
+            }
+        }
+    }
+}
+//*Menu Cart Ends
+//!Menu Cart For Responsive Starts
+@media only screen and (max-width:1070px) {
+    .menu_item {
+        .item_name {
+            font-size: 14px !important;
+        }
+        .item_description {
+            font-size: 12px !important;
+        }
+    }
+}
+@media only screen and (max-width:920px) {
+    .menu_container {
+        height: 650px !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        justify-content: start !important;
+        .item_name {
+            font-size: 16px !important;
+        }
+        .item_description {
+            font-size: 14px !important;
+        }
+    }
+}
+@media only screen and (max-width:555px) {
+    .filter {
+        width: 85px !important;
+        height: 45px !important;
+        font-size: 12px !important;
+    }
+}
+@media only screen and (max-width:530px) {
+    .menu_item {
+        .item_name {
+            font-size: 14px !important;
+        }
+        .item_description {
+            font-size: 12px !important;
+        }
+    }
+}
+@media only screen and (max-width:460px) {
+    .menu_item {
+        .item_name {
+            font-size: 12px !important;
+            span {
+                letter-spacing: 1px !important;
+            }
+        }
+        .item_description {
+            font-size: 10px !important;
+        }
+    }
+}
+@media only screen and (max-width:415px) {
+    .filter {
+        width: 70px !important;
+        height: 45px !important;
+        font-size: 10px !important;
+    }
+    .menu_item {
+        .item_name {
+            span {
+                letter-spacing: 0 !important;
+            }
+        }
+    }
+}
+//!Menu Cart For Responsive Ends
