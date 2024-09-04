@@ -16,13 +16,13 @@
                             height: 500px;
                             background-image: url('../dist/img/heroTwo.webp');
                             background-repeat: no-repeat;
-                            background-position: start;
+                            background-position: center center;
                             background-size: cover;
                             .navbar_menu_content_wrap {
                                 width: 100%;
                                 .navbar_menu_main {
                                     width: 100%;
-                                    padding-right: 8%;
+                                    padding-right: 3%;
                                     padding-top: 3%;
                                     .navbar_menu_inner {
                                         width: 100%;
@@ -30,10 +30,10 @@
                                             width: 100px;
                                             height: 50px;
                                             &:hover {
-                                                border: 2px solid rgb(175, 174, 174);
+                                                border: 2px solid rgb(0, 0, 0);
                                             }
                                             &.active {
-                                                border: 2px solid rgb(175, 174, 174);
+                                                border: 2px solid rgb(3, 3, 3);
                                             }
                                             a {
                                                 font-family: "Merriweather", serif;
@@ -74,13 +74,13 @@
                             height: 500px;
                             background-image: url('../dist/img/heroOne.webp');
                             background-repeat: no-repeat;
-                            background-position: start;
+                            background-position: center center;
                             background-size: cover;
                             .navbar_menu_content_wrap {
                                 width: 100%;
                                 .navbar_menu_main {
                                     width: 100%;
-                                    padding-right: 8%;
+                                    padding-right: 3%;
                                     padding-top: 3%;
                                     .navbar_menu_inner {
                                         width: 100%;
@@ -88,13 +88,16 @@
                                             width: 100px;
                                             height: 50px;
                                             &:hover {
-                                                border: 2px solid rgb(175, 174, 174);
+                                                border: 2px solid rgb(0, 0, 0);
+                                            }
+                                            &.active {
+                                                border: 2px solid rgb(2, 2, 2);
                                             }
                                             a {
                                                 font-family: "Merriweather", serif;
                                                 font-weight: 300;
                                                 font-size: 16px;
-                                                text-shadow: 2px 2px 5px rgba(228, 215, 215, 0.5);
+                                                text-shadow: 2px 2px 5px rgba(253, 253, 253, 0.5);
                                             }
                                         }
                                     }
@@ -129,9 +132,34 @@
 }
 /*Navbar Section Ends*/
 //!/*Navbar Section For Responsive Starts*/
-@media only screen and (max-width:1170px) {
+@media only screen and (max-width:1300px) {
     .navbar_menu_inner {
-        margin-right: 2% !important;
+        div {
+            a {
+                font-weight: 400 !important;
+            }
+        }
+    }
+}
+@media only screen and (max-width:1250px) {
+    .navbar_menu_inner {
+        gap: 10px !important;
+        div {
+            a {
+                font-weight: 400 !important;
+            }
+        }
+    }
+}
+@media only screen and (max-width:1160px) {
+    .navbar_menu_inner {
+        gap: 8px !important;
+        div {
+            width: 80px !important;
+            a {
+                font-size: 14px !important;
+            }
+        }
     }
 }
 @media only screen and (max-width:1130px) {
