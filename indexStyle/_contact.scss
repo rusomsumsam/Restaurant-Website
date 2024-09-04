@@ -1,0 +1,190 @@
+//*Contact Section Starts
+.contact_main {
+    width: 100%;
+    height: 725px;
+    background-image: url('../dist/img/contactBg.webp');
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: cover;
+    margin-top: 50px;
+    .contact_inner {
+        width: 100%;
+        .test_cus {
+            width: 55%;
+        }
+        .contact_wrap_main {
+            width: 36%;
+            .contact_wrap_inner {
+                width: 100%;
+                .contact_header_cus {
+                    .for_header {
+                        p {
+                            font-family: "Merriweather", serif;
+                            font-weight: 300;
+                            font-size: 26px;
+                        }
+                    }
+                    .for_divider {
+                        width: 220%;
+                        img {
+                            width: 100%;
+                        }
+                    }
+                }
+                .veggie_reservations_wrap {
+                    width: 100%;
+                    .veggie_main, .reservations_main {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 10px;
+                        .for_header {
+                            p {
+                                font-family: "Merriweather", serif;
+                                font-weight: 400;
+                                font-size: 18px;
+                            }
+                        }
+                        .for_txt {
+                            p {
+                                font-family: "Merriweather", serif;
+                                font-weight: 300;
+                                font-size: 14px;
+                            }
+                        }
+                    }
+                }
+                .contact_form {
+                    width: 100%;
+                    .for_heading {
+                        p {
+                            font-family: "Merriweather", serif;
+                            font-weight: 400;
+                            font-size: 18px;
+                        }
+                    }
+                    .form_cus {
+                        width: 100%;
+                        form {
+                            width: 100%;
+                            .name_mail_wrap {
+                                width: 100%;
+                                .for_name {
+                                    width: 100%;
+                                    input {
+                                        width: 100%;
+                                        border-bottom: 1px solid black;
+                                        background-color: transparent;
+                                        padding: 0 0 10px 10px;
+                                        &::placeholder {
+                                            font-family: "Merriweather", serif;
+                                            font-weight: 400;
+                                            font-size: 16px;
+                                        }
+                                    }
+                                }
+                                .for_mail {
+                                    width: 100%;
+                                    input {
+                                        width: 100%;
+                                        border-bottom: 1px solid black;
+                                        background-color: transparent;
+                                        padding: 0 0 10px 10px;
+                                        &::placeholder {
+                                            font-family: "Merriweather", serif;
+                                            font-weight: 400;
+                                            font-size: 16px;
+                                        }
+                                    }
+                                }
+                            }
+                            .for_message {
+                                width: 100%;
+                                input {
+                                    width: 100%;
+                                    border-bottom: 1px solid black;
+                                    background-color: transparent;
+                                    padding: 0 0 10px 10px;
+                                    &::placeholder {
+                                        font-family: "Merriweather", serif;
+                                        font-weight: 400;
+                                        font-size: 16px;
+                                    }
+                                }
+                            }
+                            .btn_cus {
+                                button {
+                                    width: 120px;
+                                    height: 50px;
+                                    border: 1px solid rgb(65, 64, 64);
+                                    font-family: "Merriweather", serif;
+                                    font-weight: 400;
+                                    font-size: 16px;
+                                    color: rgb(58, 58, 58);
+                                }
+                            }
+                        }
+                    }
+                }
+                .social_main {
+                    width: 100%;
+                    div {
+                        width: 40px;
+                        border: 1px solid black;
+                        padding: 5px;
+                        img {
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .copyright_main {
+        width: 100%;
+        p {
+            font-family: "Merriweather", serif;
+            font-weight: 300;
+            font-size: 16px;
+            color: rgb(129, 129, 129);
+            margin-bottom: 0;
+            .name_cus {
+                color: rgb(30, 30, 139);
+            }
+        }
+    }
+}
+//*Contact Section Ends
+//!Contact Section For Responsive Starts
+@media only screen and (max-width:1145px) {
+    .test_cus {
+        width: 40% !important;
+    }
+    .contact_wrap_main {
+        width: 40% !important;
+    }
+}
+@media only screen and (max-width:992px) {
+    .test_cus {
+        width: 30% !important;
+    }
+    .contact_wrap_main {
+        width: 50% !important;
+    }
+}
+@media only screen and (max-width:720px) {
+    .test_cus {
+        width: 20% !important;
+    }
+    .contact_wrap_main {
+        width: 60% !important;
+    }
+}
+@media only screen and (max-width:680px) {
+    .test_cus {
+        width: 0 !important;
+    }
+    .contact_wrap_main {
+        width: 90% !important;
+        margin: auto;
+    }
+}
