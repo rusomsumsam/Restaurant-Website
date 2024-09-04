@@ -18,6 +18,53 @@
                             background-repeat: no-repeat;
                             background-position: start;
                             background-size: cover;
+                            .navbar_menu_content_wrap {
+                                width: 100%;
+                                .navbar_menu_main {
+                                    width: 100%;
+                                    padding-right: 8%;
+                                    padding-top: 3%;
+                                    .navbar_menu_inner {
+                                        width: 100%;
+                                        div {
+                                            width: 100px;
+                                            height: 50px;
+                                            &:hover {
+                                                border: 2px solid rgb(175, 174, 174);
+                                            }
+                                            &.active {
+                                                border: 2px solid rgb(175, 174, 174);
+                                            }
+                                            a {
+                                                font-family: "Merriweather", serif;
+                                                font-weight: 300;
+                                                font-size: 16px;
+                                                text-shadow: 2px 2px 5px rgba(228, 215, 215, 0.5);
+                                            }
+                                        }
+                                    }
+                                }
+                                .navbar_content_main {
+                                    width: 100%;
+                                    margin-top: 8%;
+                                    .navbar_content_inner {
+                                        width: 50%;
+                                        .for_content {
+                                            p {
+                                                font-family: "Merriweather", serif;
+                                                font-weight: 300;
+                                                font-size: 24px;
+                                            }
+                                        }
+                                        .for_divider {
+                                            width: 30%;
+                                            img {
+                                                width: 100%;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
                         }
                     }
                     .item_main_two {
@@ -29,47 +76,48 @@
                             background-repeat: no-repeat;
                             background-position: start;
                             background-size: cover;
-                        }
-                    }
-                }
-                .navbar_menu_content_wrap {
-                    .navbar_menu_main {
-                        width: 100%;
-                        .navbar_menu_inner {
-                            width: 100%;
-                            a {
-                                font-family: "Merriweather", serif;
-                                font-weight: 400;
-                                font-size: 14px;
-                                &:hover {
-                                    border: 1px solid rgb(87, 86, 86);
-                                    padding: 5px;
-                                }
-                            }
-                            a.active:focus {
-                                border: 1px solid rgb(87, 86, 86);
-                                padding: 5px;
-                            }
-                        }
-                    }
-                    .navbar_content_main {
-                        width: 100%;
-                        margin-top: 100px;
-                        .navbar_content_inner {
-                            width: 100%;
-                            .for_content {
+                            .navbar_menu_content_wrap {
                                 width: 100%;
-                                p {
-                                    font-family: "Merriweather", serif;
-                                    font-weight: 300;
-                                    font-size: 24px;
+                                .navbar_menu_main {
+                                    width: 100%;
+                                    padding-right: 8%;
+                                    padding-top: 3%;
+                                    .navbar_menu_inner {
+                                        width: 100%;
+                                        div {
+                                            width: 100px;
+                                            height: 50px;
+                                            &:hover {
+                                                border: 2px solid rgb(175, 174, 174);
+                                            }
+                                            a {
+                                                font-family: "Merriweather", serif;
+                                                font-weight: 300;
+                                                font-size: 16px;
+                                                text-shadow: 2px 2px 5px rgba(228, 215, 215, 0.5);
+                                            }
+                                        }
+                                    }
                                 }
-                            }
-                            .for_divider {
-                                width: 100%;
-                                margin-top: 10px;
-                                img {
-                                    width: 40%;
+                                .navbar_content_main {
+                                    width: 100%;
+                                    margin-top: 8%;
+                                    .navbar_content_inner {
+                                        width: 50%;
+                                        .for_content {
+                                            p {
+                                                font-family: "Merriweather", serif;
+                                                font-weight: 300;
+                                                font-size: 24px;
+                                            }
+                                        }
+                                        .for_divider {
+                                            width: 30%;
+                                            img {
+                                                width: 100%;
+                                            }
+                                        }
+                                    }
                                 }
                             }
                         }
@@ -79,19 +127,13 @@
         }
     }
 }
-//!For Positioning Starts
-.first_loop {
-    position: relative;
-}
-.navbar_menu_content_wrap {
-    position: absolute;
-    top: 7%;
-    left: 58%;
-    z-index: 456;
-}
-//!For Positioning Ends
 /*Navbar Section Ends*/
 //!/*Navbar Section For Responsive Starts*/
+@media only screen and (max-width:1170px) {
+    .navbar_menu_inner {
+        margin-right: 2% !important;
+    }
+}
 @media only screen and (max-width:1130px) {
     .navbar_menu_content_wrap {
         left: 50% !important;

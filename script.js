@@ -20,20 +20,20 @@ $(function () {
             staggerSequence: false,
             reverseOut: false
         },
-        // callbacks: {
-        //     onMixLoad: false,
-        //     onMixStart: false,
-        //     onMixBusy: false,
-        //     onMixEnd: false,
-        //     onMixFail: false
-        // },
-        // controls: {
-        //     enable: true,
-        //     live: false,
-        //     toggleFilterButtons: false,
-        //     toggleLogic: 'or',
-        //     activeClass: 'active'
-        // },
+        callbacks: {
+            onMixLoad: false,
+            onMixStart: false,
+            onMixBusy: false,
+            onMixEnd: false,
+            onMixFail: false
+        },
+        controls: {
+            enable: true,
+            live: false,
+            toggleFilterButtons: false,
+            toggleLogic: 'or',
+            activeClass: 'active'
+        },
         load: {
             filter: '.starters'
         }
